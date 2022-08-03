@@ -1,0 +1,22 @@
+{
+  "name": "coruja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/nodemailer": "^6.4.4",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.7",
+    "uuidv4": "^6.2.13"
+  }
+}
