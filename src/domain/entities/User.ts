@@ -1,5 +1,4 @@
-import { uuid } from 'uuidv4'
-
+import { v4 } from 'uuid'
 export class User {
     public readonly id: string | void;
 
@@ -13,6 +12,6 @@ export class User {
         this.password = ''
 
         if (!id)
-            this.id = uuid()
+            this.id = v4()
     }
 }
